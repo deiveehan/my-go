@@ -1,3 +1,1 @@
-package
-
-var myInteger int
+package main
