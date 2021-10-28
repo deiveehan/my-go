@@ -1,5 +1,6 @@
 # Go Microservice deploy using docker
 
+## Build and deployment
 ```shell script
 docker build -t deiveehan/gosvc:1.1 .
 docker images
@@ -14,3 +15,12 @@ http localhost
 docker build --file Dockerfile-2 .
 
 ```
+
+## Testing using POSTman
+
+POST
+![img.png](img.png)
+
+
+GET
+![img_1.png](img_1.png)
